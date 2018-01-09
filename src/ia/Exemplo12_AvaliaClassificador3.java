@@ -10,7 +10,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 /**
  * Este exemplo contém um arcabouço para avaliação de classificadores de
- * exemplos caracterizados com valores nominais.
+ * exemplos caracterizados com valores nominais
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo12_AvaliaClassificador3.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

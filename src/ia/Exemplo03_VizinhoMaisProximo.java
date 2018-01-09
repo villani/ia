@@ -2,7 +2,9 @@ package ia;
 
 /**
  * Este exemplo contém uma possível implementação do algoritmo Vizinho Mais
- * Proximo e da distância euclidiana.
+ * Proximo e da distância euclidiana
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo03_VizinhoMaisProximo.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof Me. Leonardo Villani
  */

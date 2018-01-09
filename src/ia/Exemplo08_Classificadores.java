@@ -11,7 +11,9 @@ import weka.core.Instances;
 
 /**
  * Este exemplo contém a implementação da distância euclidiana, do algoritmo
- * Vizinho Mais Proximo e do kNN.
+ * Vizinho Mais Proximo e do kNN
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo08_Classificadores.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof Me. Leonardo Villani
  */

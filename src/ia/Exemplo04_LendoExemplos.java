@@ -11,7 +11,9 @@ import weka.core.Instances;     // Representa um conjunto de dados
 
 /**
  * Este é um exemplo de como classes da biblioteca Weka podem ser usadas em uma
- * aplicação Java.
+ * aplicação Java
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo04_LendoExemplos.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

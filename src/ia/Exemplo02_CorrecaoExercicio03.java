@@ -2,7 +2,9 @@ package ia;
 
 /**
  * Este exemplo contém uma possível implementação de corretor ortográfico
- * proposto no Exercício 03 do Caderno de Exercícios.
+ * proposto no Exercício 03 do Caderno de Exercícios
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo02_CorrecaoExercicio03.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

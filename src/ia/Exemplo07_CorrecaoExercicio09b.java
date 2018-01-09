@@ -8,7 +8,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 /**
  * Este exemplo contém o uso da implementação do kNN disponível na biblioteca
- * Weka.
+ * Weka
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo07_CorrecaoExercicio09b.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

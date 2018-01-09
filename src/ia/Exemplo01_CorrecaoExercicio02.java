@@ -2,7 +2,9 @@ package ia;
 
 /**
  * Este exemplo contém uma possível implementação para a função de similaridade
- * proposta no Exercício 02 do Caderno de Exercícios.
+ * proposta no Exercício 02 do Caderno de Exercícios
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo01_CorrecaoExercicio02.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

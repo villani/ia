@@ -8,7 +8,9 @@ import weka.core.Instances;
 
 /**
  * Este exemplo contém o uso da implementação do algoritmo Naive Bayes
- * disponível na biblioteca Weka.
+ * disponível na biblioteca Weka
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo06_Naive.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

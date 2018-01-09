@@ -9,7 +9,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 /**
  * Este exemplo contém o uso da implementação do algoritmo Árvore de Decisão
- * (Id3) disponível na biblioteca Weka.
+ * (Id3) disponível na biblioteca Weka
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo11_ArvoreDecisao.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

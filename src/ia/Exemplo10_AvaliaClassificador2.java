@@ -9,7 +9,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 /**
  * Este exemplo contém um arcabouço para avaliação de classificadores com uma
  * possível implementação para as três abordagens de validação cruzada
- * apresentadas em aula: a hold out, a k-folds e a leave-one-out.
+ * apresentadas em aula: a hold out, a k-folds e a leave-one-out
+ * (<a href="https://github.com/villani/ia/blob/master/src/ia/Exemplo10_AvaliaClassificador2.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */
