@@ -1,0 +1,18 @@
+<?php
+$dicio = ['Palmeiras', 'Santos', 'São Paulo', 'Corinthians'];
+$termo = $argv[1];
+
+// VERIFICANDO PALAVRA COM MENOR DISTÂNCIA
+// - Começando pela primeira
+$sugestao = $dicio[0];
+$menor = levenshtein($termo, $dicio[0]);
+
+// - Verificando as demais
+for ($i = 1; $i < count($dicio); $i++) {
+  $distancia = levenshtein($termo, $dicio[$i]);
+  if ($distancia < $menor) {
+    $sugestao = $dicio[$i];
+    $menor = $distancia;
+  }
+}
+echo "Você quis dizer: $sugestao\n\n";
