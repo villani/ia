@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/leonardo/Documentos/Fatec/2020.01/IA/weka-3-8-4/weka.jar"
+    ]
+}
