@@ -1,0 +1,11 @@
+@RELATION simpsons
+
+@ATTRIBUTE cabelo NUMERIC
+@ATTRIBUTE conceito {f,m}
+
+@DATA
+1,m
+0,m
+10,f
+2,m
+6,f
