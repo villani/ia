@@ -1,9 +1,11 @@
+import java.util.Random;
+
 import weka.classifiers.lazy.IBk;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-class LeaveOneOut {
+class HoldOut {
     public static void main(String[] args) throws Exception {
         
         // Definir a origem dos dados.
@@ -13,14 +15,14 @@ class LeaveOneOut {
         Instances iris = arff.getDataSet(4); // 4 é o índice do atributo classe.
 
         // Embaralhando os dados do conjunto.
-        //iris = iris.resample(new Random());
+        iris = iris.resample(new Random());
 
-        // IMPLEMENTANDO TÉCNICA DE VALIDAÇÃO CRUZADA - Leave One Out
+        // IMPLEMENTANDO TÉCNICA DE VALIDAÇÃO CRUZADA - Hold out
         // - Definir o número de partições.
-        int particoes = iris.numInstances(); // k = N -> número de elementos na base
+        int particoes = 3;
 
         // - Definir o número de iterações.
-        int iteracoes = particoes;
+        int iteracoes = 1;
 
         // - Identificando as linhas do resultado.
         int id = 1;

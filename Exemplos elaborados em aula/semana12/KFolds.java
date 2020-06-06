@@ -3,7 +3,14 @@ import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-class LeaveOneOut {
+/**
+ * 
+ * Alterar a classe para que ela funcione como k-Folds.
+ * Alterar a origem dos dados de 'iris.arff' para 'diabetes.arff'.
+ * Montar a matriz de confusão para os classificadores kNN com 3 e 5 vizinhos.
+ * 
+ */
+class KFolds {
     public static void main(String[] args) throws Exception {
         
         // Definir a origem dos dados.
