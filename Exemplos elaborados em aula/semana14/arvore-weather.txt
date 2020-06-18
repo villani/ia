@@ -1,0 +1,10 @@
+OUTLOOK (9Y, 5N)
+OUTLOOK = overcast : YES (4Y)
+OUTLOOK = rainy (3Y, 2N)
+|	WINDY = FALSE : YES (3Y)
+|	WINDY = TRUE : NO (2N)
+OUTLOOK = sunny (2Y, 3N)
+|	HUMIDITY = high : NO (3N)
+|	HUMIDITY = normal : YES (2Y)
+
+
