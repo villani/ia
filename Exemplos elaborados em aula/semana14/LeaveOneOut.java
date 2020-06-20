@@ -17,7 +17,7 @@ class LeaveOneOut {
         // Embaralhando os dados do conjunto.
         iris = iris.resample(new Random());
 
-        // IMPLEMENTANDO TÉCNICA DE VALIDAÇÃO CRUZADA - Hold Out
+        // IMPLEMENTANDO TÉCNICA DE VALIDAÇÃO CRUZADA - Hold out
         // - Definir o número de partições.
         int particoes = 3;
 

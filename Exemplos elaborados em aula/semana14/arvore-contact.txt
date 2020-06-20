@@ -1,0 +1,14 @@
+tear = reduced : NONE (12none)
+tear = normal (3none, 5soft, 4hard)
+|	astig = yes (2none, 4hard)
+|	|	spect = myope : HARD (3hard)
+|	|	spect = hyper: (2none, 1hard)
+|	|	| 	age = young : HARD
+|	|	|	age = pre : NONE
+|	|	|	age = pres : NONE
+|	astig = no (1none, 5soft)
+|	|	age = young : SOFT (2 soft)
+|	|	age = pre : SOFT (2 soft)
+|	|	age =pres (1 soft, 1 none)
+|	|	|	spect = myo : NONE
+|	|	|	spect = hyp : SOFT 
