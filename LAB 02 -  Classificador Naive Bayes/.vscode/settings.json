@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/leonardo/Documentos/Desenvolvimento/weka-3-8-3/weka.jar"
+    ]
+}
