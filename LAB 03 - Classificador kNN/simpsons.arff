@@ -1,0 +1,17 @@
+@RELATION simpsons
+
+@ATTRIBUTE cabelo INTEGER
+@ATTRIBUTE peso INTEGER
+@ATTRIBUTE idade INTEGER
+@ATTRIBUTE class {f,m}
+
+@DATA
+0,250,36,m
+10,150,34,f
+2,90,10,m
+6,78,8,f
+4,20,1,f
+1,170,70,m
+8,160,41,f
+10,180,38,m
+6,200,45,m  
