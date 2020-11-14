@@ -23,26 +23,34 @@ public class ClassificadorKnn2 {
     public static void main(String[] args) throws Exception {
 
         // CRIAR OBJETO Instances BASEADO NESSE ARFF
-        DataSource arff = new DataSource("simpsons.arff");
-        Instances simpsons = arff.getDataSet();
-        simpsons.setClassIndex(3);
-        System.out.println(simpsons);
+        DataSource arff = new DataSource("diabetes.arff");
+        Instances diabetes = arff.getDataSet();
+        diabetes.setClassIndex(8);
+        System.out.println(diabetes);
 
-        // CRIAR OBJETO Instance COM OS DADOS DO COMIC
-        Instance comic = new DenseInstance(4);
-        comic.setDataset(simpsons);
-        comic.setValue(0, 8);
-        comic.setValue(1, 290);
-        comic.setValue(2, 38);
+        // CRIAR OBJETO Instance COM OS DADOS DO paciente
+        //6	148	72	35	0	33.6	0.627	50	tested_positive
+        // 6,148,72,35,0,33.6,0.627,50,tested_positive
+        Instance paciente = new DenseInstance(9);
+        paciente.setDataset(diabetes);
+        paciente.setValue(0, 6);
+        paciente.setValue(1, 148);
+        paciente.setValue(2, 72);
+        paciente.setValue(3, 35);
+        paciente.setValue(4, 0);
+        paciente.setValue(5, 33.6);
+        paciente.setValue(6, 0.627);
+        paciente.setValue(7, 50);
 
-        System.out.println(comic);
+        System.out.println(paciente);
 
-        // INSTANCIAR kNN(3) PARA CLASSIFICAR O COMIC
-        IBk knn = new IBk(3); // k = 3
-        knn.buildClassifier(simpsons);
-        double classe = knn.classifyInstance(comic);
-        comic.setClassValue(classe);
+        // INSTANCIAR kNN(5) PARA CLASSIFICAR O paciente
+        IBk knn = new IBk(5); // k = 5
+        knn.buildClassifier(diabetes);
+        double classe = knn.classifyInstance(paciente);
+        paciente.setClassValue(classe);
         System.out.println("Resultado: " + classe);
+        System.out.println("Resultado: " + paciente.stringValue(8));
     }
 
 }
