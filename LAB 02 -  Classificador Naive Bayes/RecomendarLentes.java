@@ -1,8 +1,8 @@
-import weka.classifiers.bayes.NaiveBayes;
-import weka.core.DenseInstance;
-import weka.core.Instance;
-import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
+import weka.classifiers.bayes.NaiveBayes;               // Implementação do algoritmo Naïve Bayes
+import weka.core.DenseInstance;                         // Implementação do tipo Instance
+import weka.core.Instance;                              // Interface que descreve um objeto Exemplo
+import weka.core.Instances;                             // Descreve um conjunto de dados
+import weka.core.converters.ConverterUtils.DataSource;  // Origem dos dados
 
 class RecomendarLentes {
 
